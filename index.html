@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title> Sthefany - Portafolio</title>
+	<!-- CSS Vendor -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+	<!-- Fuentes -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,100italic,100|Pacifico|Oswald:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link href="assets/css/queries.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+	<!-- Preloader  -->
+	<div id="preloader">
+		<div id="status">
+			<div class="cv text-center">
+				<p class="text-blue">¿Quieres descargar mi CV mientras espera?</p>
+				<a href="assets/docs/CV-STHEFANY.pdf">
+					<button type="button" class="btn btn-success btn-cv">Descarga CV</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Home start -->
+
+	<section id="home" class="seccion-image screen-height">
+		<div class="home-overlay"></div>
+		<div class="intro">
+			<div class="start">Hola, me llamo Sthefany Floriano y soy </div>
+			<div class="type-wrap">
+				<span class="descripcion" id="typed"></span>
+			</div>
+
+			<div class="start">Creando aplicaciones Web modernas y responsive</div>
+		</div>
+
+		<!-- Menu Full Screen start -->
+		<div class="mobilenav">
+			<li><a href="#about">Acerca de Mi</a></li>
+			<li><a href="#skills">Mis Habilidades</a></li>
+			<li><a href="#portafolio">Mis Trabajos</a></li>
+			<li><a href="#experimentos">Mis Experimentos</a></li>
+			<li><a href="#contact">Contáctame</a></li>
+
+			<div class="redes">
+				<a href="https://www.facebook.com/SthefanyFloriano/" target="_blank">
+					<img src="assets/img/iconos/fb-logo.svg" alt="Facebook logo" />
+				</a>
+				<a href="https://plus.google.com/u/0/+SthefanyFloriano" target="_blank">
+					<img src="assets/img/iconos/gplus-logo.svg" alt="Google+ logo" />
+				</a>
+				<a href="https://twitter.com/Stheflog" target="_blank">
+					<img src="assets/img/iconos/twitter-logo.svg" alt="Twitter logo" />
+				</a>
+				<a href="https://www.linkedin.com/in/SthefanyFloriano" target="_blank">
+					<img src="assets/img/iconos/linkedin-logo.svg" alt="LinkedIn logo" />
+				</a>
+				<a href="https://github.com/sthecrash" target="_blank">
+					<span class="devicon-github-plain colored github-icon"></span>
+				</a>
+			</div>
+
+		</div>
+		<div class="contenedor-hamburger">
+			<a href="javascript:void(0)" class="icon">
+				<div class="hamburger">
+					<div class="menui top-menu"></div>
+					<div class="menui mid-menu"></div>
+					<div class="menui bottom-menu"></div>
+				</div>
+			</a>
+		</div>
+		<!-- Menu Full Screen end -->
+		<a href="#about">
+			<div class="scroll-down">
+				<span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+			</div>
+		</a>
+	</section>
+	<!-- Home end -->
+	<!-- About me start -->
+	<section id="about" class="seccion seccion-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="seccion-header">
+						<h2 class="seccion-titulo tipografia-titulo">Acerca de mí</h2>
+						<div class="seccion-line"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="grid__item large--one-half">
+						<div class="grid__item large--one-whole promo-img-left wow rollIn">
+							<a href="">
+								<img class="cambiandoImagen" data-alt-src="assets/img/fondos/about2.jpg" src="assets/img/fondos/about1.jpg" />
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-6">
+
+					<div class="seccion-subtitulo text-gray sobremi text-center">
+						<p>
+							Desarrolladora Web Front end y por casualidad Backend
+						</p>
+						<p>Buscadora inancansable de conocimiento , una líder apasionada en buscar de nuevas tecnologías
+							<p>
+								Donde veo una idea abro una puerta para dominar el mundo
+							</p>
+							<p>
+								Yo programo porque me encanta. Me gusta la industria. Me gusta la gente que conozco. Me gusta hablar de negocios. Me gusta hacer la web un lugar mejor. Con suerte nos cruzamos en el mundo real algún día y podemos hacerlo un lugar mejor juntos.
+							</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- About me end -->
+
+	<!-- Skills start -->
+
+	<section class="seccion-white seccion-skills" id="skills">
+		<div class="container text-blue">
+			<div class="row skills">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3 text-blue">
+						<div class="seccion-header wow fadeInUp">
+							<h2 class="seccion-titulo tipografia-titulo">Mis Habilidades</h2>
+							<div class="seccion-line"></div>
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+								<div class="carousel-inner">
+									<div class="item active">
+										<span class="devicon-html5-plain-wordmark colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> HTML INCREIBLE </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-css3-plain-wordmark colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> CSS SUCULENTO </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-javascript-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> MI PRIMER AMOR </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-bootstrap-plain-wordmark colored colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> BOOTSTRAP el mejor </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-jquery-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> JQUERY lover </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-java-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> JAVA FAN </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-csharp-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> C# lover </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-dot-net-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> .NET increible </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-android-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> ANDROID FAN </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-linux-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> LINUX  </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-ubuntu-plain-wordmark colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> UBUNTU  </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-git-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> Reyna del GIT</h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-github-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about">Obsesión al Github</h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-oracle-original colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> SQL </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-mysql-plain colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> MYSQL </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-oracle-original colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> ORACLE </h3>
+										</div>
+									</div>
+									<div class="item center-block">
+										<span class="devicon-trello-plain-wordmark colored"></span>
+										<div class="caption">
+											<h3 class="text-blue subtitulo-about"> TRELLO LOVER </h3>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-12 text-center">
+											<div class="carousel-controls">
+												<a class="manito" href="#myCarousel" data-slide="prev"><span class="fa fa-hand-o-left"></span></a>
+												<a class="manito" href="#myCarousel" data-slide="next"><span class="fa fa-hand-o-right"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /.carousel -->
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 text-center">
+					<span data-percent="85" class="chart easyPieChart porcentaje">
+                            <span class="percent">85</span>
+					</span>
+					<h3 class="text-center">Back end</h3>
+				</div>
+				<div class="col-sm-6 col-md-3 text-center">
+					<span data-percent="80" class="chart easyPieChart">
+                            <span class="percent">80</span>
+					</span>
+					<h3 class="text-center">Front end </h3>
+				</div>
+				<div class="col-sm-6 col-md-3 text-center">
+					<span data-percent="75" class="chart easyPieChart">
+                            <span class="percent">75</span>
+					</span>
+					<h3 class="text-center">Base de Datos</h3>
+				</div>
+				<div class="col-sm-6 col-md-3 text-center">
+					<span data-percent="90" class="chart easyPieChart">
+                            <span class="percent">90</span>
+					</span>
+					<h3 class="text-center">Sistemas Operativos</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills end -->
+
+	<!-- Portafolio start -->
+
+	<section id="portafolio" class="sec-portafolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="seccion-header wow fadeInUp">
+						<h2 class="seccion-titulo tipografia-titulo">Mis Trabajos</h2>
+						<div class="seccion-line"></div>
+						<div class="seccion-subtitulo">
+							Algunos de mis proyectos como Desarrolladora Web.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row wow zoomIn">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a data-toggle="modal" href="#user-360">
+						<img class="center-block" src="assets/img/proyectos/user360.png" alt="User 360">
+					</a>
+					<div class="colorHover">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a data-toggle="modal" href="#tambo"><img class="center-block" src="assets/img/proyectos/tambo.png" alt="Tambo"></a>
+					<div class="colorHover">
+
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a data-toggle="modal" href="#mercado"><img class="center-block" src="assets/img/proyectos/mercado.png" alt="Mercado Mayorista"></a>
+				</div>
+			</div>
+			<div class="row wow zoomIn seccion-portafolio">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a data-toggle="modal" href="#la-republica"><img class="center-block" src="assets/img/proyectos/larepublica.png" alt="La Republica"></a>
+				</div>
+				<div id="" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a data-toggle="modal" href="#twitter"><img class="center-block" src="assets/img/proyectos/twitter.png" alt="Twitter"></a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<a data-toggle="modal" href="#whatsapp"><img class="center-block" src="assets/img/proyectos/whastapp.png" alt="Whatsapp Web"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portafolio end -->
+
+	<!-- Modals start -->
+
+	<div class="modal fade" id="user-360" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div id="contenedor-modal" class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
+					<h3>User Testing</h3>
+				</div>
+				<div id="proyecto" class=" container modal-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div><img class="center-block" src="assets/img/proyectos/responsive.jpg" alt="img-proyecto"></div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h3>Descripción del Proyecto</h3>
+							<hr>
+							<div class="descripcion-parrafo">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi voluptates, explicabo impedit voluptatibus ipsam itaque earum et asperiores sit numquam atque nostrum voluptatum animi. Minima adipisci, explicabo nam laborum.
+							</div>
+							<h3>Lenguajes Utilizados</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-bootstrap-plain colored"></i>
+							</div>
+							<h3>Herramientas Utilizadas</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-jetbrains-plain-wordmark colored"></i>
+							</div>
+							<div class="links  center-block">
+								<button type="button" class="btn btn-default">Código</button>
+								<button type="button" class="btn btn-default">Demo</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="tambo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div id="contenedor-modal" class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
+					<h3>Tambo Shopping Cart</h3>
+				</div>
+				<div id="proyecto" class=" container modal-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div><img class="center-block" src="assets/img/proyectos/responsive.jpg" alt="img-proyecto"></div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h3>Descripción del Proyecto</h3>
+							<hr>
+							<div class="descripcion-parrafo">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi voluptates, explicabo impedit voluptatibus ipsam itaque earum et asperiores sit numquam atque nostrum voluptatum animi. Minima adipisci, explicabo nam laborum.
+							</div>
+							<h3>Lenguajes Utilizados</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-bootstrap-plain colored"></i>
+							</div>
+							<h3>Herramientas Utilizadas</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-jetbrains-plain-wordmark colored"></i>
+							</div>
+							<div class="links  center-block">
+								<button type="button" class="btn btn-default">Código</button>
+								<button type="button" class="btn btn-default">Demo</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="mercado" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div id="contenedor-modal" class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
+					<h3>Mercado Mayorista</h3>
+				</div>
+				<div id="proyecto" class=" container modal-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div><img class="center-block" src="assets/img/proyectos/responsive.jpg" alt="img-proyecto"></div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h3>Descripción del Proyecto</h3>
+							<hr>
+							<div class="descripcion-parrafo">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi voluptates, explicabo impedit voluptatibus ipsam itaque earum et asperiores sit numquam atque nostrum voluptatum animi. Minima adipisci, explicabo nam laborum.
+							</div>
+							<h3>Lenguajes Utilizados</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-bootstrap-plain colored"></i>
+							</div>
+							<h3>Herramientas Utilizadas</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-jetbrains-plain-wordmark colored"></i>
+							</div>
+							<div class="links  center-block">
+								<button type="button" class="btn btn-default">Código</button>
+								<button type="button" class="btn btn-default">Demo</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="la-republica" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div id="contenedor-modal" class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
+					<h3>La República</h3>
+				</div>
+				<div id="proyecto" class=" container modal-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div><img class="center-block" src="assets/img/proyectos/responsive.jpg" alt="img-proyecto"></div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h3>Descripción del Proyecto</h3>
+							<hr>
+							<div class="descripcion-parrafo">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi voluptates, explicabo impedit voluptatibus ipsam itaque earum et asperiores sit numquam atque nostrum voluptatum animi. Minima adipisci, explicabo nam laborum.
+							</div>
+							<h3>Lenguajes Utilizados</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-bootstrap-plain colored"></i>
+							</div>
+							<h3>Herramientas Utilizadas</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-jetbrains-plain-wordmark colored"></i>
+							</div>
+							<div class="links  center-block">
+								<button type="button" class="btn btn-default">Código</button>
+								<button type="button" class="btn btn-default">Demo</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="twitter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div id="contenedor-modal" class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
+					<h3>Twitter</h3>
+				</div>
+				<div id="proyecto" class=" container modal-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div><img class="center-block" src="assets/img/proyectos/responsive.jpg" alt="img-proyecto"></div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h3>Descripción del Proyecto</h3>
+							<hr>
+							<div class="descripcion-parrafo">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi voluptates, explicabo impedit voluptatibus ipsam itaque earum et asperiores sit numquam atque nostrum voluptatum animi. Minima adipisci, explicabo nam laborum.
+							</div>
+							<h3>Lenguajes Utilizados</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-bootstrap-plain colored"></i>
+							</div>
+							<h3>Herramientas Utilizadas</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-jetbrains-plain-wordmark colored"></i>
+							</div>
+							<div class="links  center-block">
+								<button type="button" class="btn btn-default">Código</button>
+								<button type="button" class="btn btn-default">Demo</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="whatsapp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div id="contenedor-modal" class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</button>
+					<h3>Whatsapp</h3>
+				</div>
+				<div id="proyecto" class=" container modal-body">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div><img class="center-block" src="assets/img/proyectos/responsive.jpg" alt="img-proyecto"></div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<h3>Descripción del Proyecto</h3>
+							<hr>
+							<div class="descripcion-parrafo">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi voluptates, explicabo impedit voluptatibus ipsam itaque earum et asperiores sit numquam atque nostrum voluptatum animi. Minima adipisci, explicabo nam laborum.
+							</div>
+							<h3>Lenguajes Utilizados</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-bootstrap-plain colored"></i>
+							</div>
+							<h3>Herramientas Utilizadas</h3>
+							<hr>
+							<div class="herramientas">
+								<i class="devicon-jetbrains-plain-wordmark colored"></i>
+							</div>
+							<div class="links  center-block">
+								<button type="button" class="btn btn-default">Código</button>
+								<button type="button" class="btn btn-default">Demo</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modals end -->
+
+	<section class="frase">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="frase-parrafo wow slideInRight" data-wow-delay=".2s">
+						"Medir los avances de programación por líneas de código es como medir el progreso de la construcción de aviones por peso."
+					</div>
+					<h2 class="wow slideInRight text-right text-white" data-wow-delay=".1s">Sthefany Floriano</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Experimentos start-->
+	<section id="experimentos" class="seccion seccion-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="seccion-header wow fadeInUp">
+						<h2 class="seccion-titulo tipografia-titulo">Mis Experimentos</h2>
+						<div class="seccion-line"></div>
+						<div class="seccion-subtitulo">
+							Innovar , experimentar , crear.
+							<br> Algunos experimentos con HTML CSS JS y JQUERY.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="expebox wow slideInLeft">
+						<p class="expebox-titulo">Drag and Drop Metropolitano Zombie</p>
+						<div class="flip">
+							<div class="card">
+								<div class="cara adelante">
+									<img src="assets/img/proyectos/no-wait.png" class="img-responsive" alt="">
+								</div>
+								<div class="cara atras">
+									<img src="assets/img/proyectos/uno.jpg" class="img-responsive" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="ver">
+							<a href="">VER CODIGO</a>
+						</div>
+						<div class="ver">
+							<a href="">DEMO</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="expebox wow slideInLeft">
+						<p class="expebox-titulo">Trello Responsive con Interact.js</p>
+						<div class="flip">
+							<div class="card">
+								<div class="cara adelante">
+									<img src="assets/img/proyectos/trello.png" class="img-responsive" alt="">
+								</div>
+								<div class="cara atras"> <img src="assets/img/proyectos/uno.jpg" class="img-responsive" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="ver">
+							<a href="">VER CODIGO</a>
+						</div>
+						<div class="ver">
+							<a href="">DEMO</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="expebox wow slideInLeft">
+						<p class="expebox-titulo">Team Viewer con Java</p>
+						<div class="flip">
+							<div class="card">
+								<div class="cara adelante">
+									<img src="assets/img/proyectos/teamviewer.jpg" class="img-responsive" alt="">
+								</div>
+								<div class="cara atras">
+									<img src="assets/img/proyectos/uno.jpg" class="img-responsive" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="ver">
+							<a href="">VER CODIGO</a>
+						</div>
+						<div class="ver">
+							<a href="">DEMO</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Experimentos end -->
+	<!-- Movil -->
+	<section id="movil" class="seccion-movil">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="seccion-header">
+						<h2 class="seccion-titulo tipografia-titulo">Proyectos Móviles</h2>
+						<div class="seccion-line"></div>
+						<div class="seccion-subtitulo text-blue">
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<img class="lyft" src="assets/img/proyectos/iphonelyft.png">
+				</div>
+				<div class="col-sm-4">
+					<img class="lyft" src="assets/img/proyectos/tinder.jpeg">
+				</div>
+				<div class="col-sm-4">
+					<img class="lyft" src="assets/img/proyectos/iphonelyft.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contactame start -->
+	<section id="contact" class="seccion">
+		<div class="container">
+			<div class="footer-rocket-overlay">
+				<div id="up" class="rocket wow fadeInUp"></div>
+			</div>
+			<div class="pink-smoke"></div>
+			<div class="white-smoke"></div>
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="seccion-header">
+						<h2 class="seccion-titulo color-white tipografia-titulo">Contáctame</h2>
+						<div class="seccion-line"></div>
+						<div class="seccion-subtitulo color-white">
+							Si tienes un proyecto en mente no dudes en escribirme.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<form id="contact-form" role="form">
+						<div class="formulario">
+							<div class="form-group wow fadeInUp">
+								<label class="sr-only" for="nombre">Name</label>
+								<input type="text" id="nombre" class="form-control" name="nombre" placeholder="Nombre">
+							</div>
+							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
+								<label class="sr-only" for="email">Email</label>
+								<input type="email" id="email" class="form-control" name="c_email" placeholder="E-mail">
+							</div>
+							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
+								<textarea class="form-control" id="mensaje" name="mensaje" rows="7" placeholder="Mensaje"></textarea>
+							</div>
+							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Enviar Mensaje</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contactame end -->
+
+	<!-- Footer start -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="social-links">
+						<li><a href="https://www.facebook.com/SthefanyFloriano" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+					<p class="heart">
+						Hecho con <span class="fa fa-heart fa-2x animated pulse"></span> en Lima - Perú
+					</p>
+					<p class="copyright">
+						© 2016 Sthefany Floriano
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer end -->
+
+	<!-- Scroll para arriba start -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+	<!-- Scroll para arriba end -->
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/jquery.easypiechart.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+	<script src="assets/js/typed.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>
