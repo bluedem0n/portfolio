@@ -243,29 +243,29 @@ h6 {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../img/fondos/cover.jpg);
-	background-color: #222;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding: 0;
-	height: 736px;
+  /*  background: url(../img/fondos/cover.jpg);*/
+    background-color: #222;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+	height: 638px;
+    background-position: 50% 0px;
 }
-
 .home-overlay {
 	background-color: rgba(44, 62, 80, 0.3);
 	background-image: url("../img/fondos/descarga.png");
 	background-repeat: repeat;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
 }
 
 .intro {
@@ -284,17 +284,21 @@ h6 {
 
 .intro h1 {
 	font-weight: 800;
+	
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	text-transform: none;
-	margin: 15px 0;
-	color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 6vw;
+    font-style: normal;
+    text-transform: none;
+    margin: 15px 0;
+    color: #fff;
 }
-
+.console-container {
+    font-size: 4vw;
+    font-family: 'Share Tech Mono', monospace;
+}
 .descripcion {
 	font-size: 2.5em !important;
 	margin-top: 1em;
