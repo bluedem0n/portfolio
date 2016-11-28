@@ -11,7 +11,7 @@ html {
 }
 
 body::-webkit-scrollbar {
-	width: 12px;
+	width: 16px;
 }
 
 
@@ -243,9 +243,9 @@ h6 {
 /* ---------------------------------------------- */
 
 #home {
-  /*  background: url(../img/fondos/cover.jpg);*/
+  background: url(../img/fondos/cover7.jpg);
     background-color: #222;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: 50% 50%;
     -webkit-background-size: cover;
@@ -256,6 +256,7 @@ h6 {
 	height: 638px;
     background-position: 50% 0px;
 }
+/*
 .home-overlay {
 	background-color: rgba(44, 62, 80, 0.3);
 	background-image: url("../img/fondos/descarga.png");
@@ -266,7 +267,7 @@ h6 {
     top: 0;
     width: 100%;
     z-index: 0;
-}
+}*/
 
 .intro {
 	position: absolute;
@@ -296,7 +297,7 @@ h6 {
     color: #fff;
 }
 .console-container {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Share Tech Mono', monospace;
 }
 .descripcion {
@@ -367,7 +368,10 @@ h6 {
 	max-width: 100%;
 }
 
-
+.aboutme {
+	text-align: justify;
+	font-size: 16px;
+}
 /* ---------------------------------------------- /*
  * Skills
 /* ---------------------------------------------- */
@@ -590,14 +594,12 @@ h6 {
 /* ---------------------------------------------- */
 
 .lyft {
-	max-width: 30%;
+    max-width: 45%;
 }
 
 .tinder {
 	max-width: 30%;
 }
-
-
 /* ---------------------------------------------- /*
  * Contact
 /* ---------------------------------------------- */
