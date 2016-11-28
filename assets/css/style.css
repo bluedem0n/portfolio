@@ -294,7 +294,7 @@ h6 {
     font-style: normal;
     text-transform: none;
     margin: 15px 0;
-    color: #fff;
+    color: #666;
 }
 .console-container {
     font-size: 3vw;
@@ -611,6 +611,8 @@ h6 {
 	text-align: center;
 	background-image: url(../img/fondos/bg-footer.jpg)
 }
+
+
 
 #contact .footer-rocket-overlay {
 	overflow: hidden;
