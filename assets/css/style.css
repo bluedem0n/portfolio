@@ -237,7 +237,7 @@ h6 {
  * Home
 /* ---------------------------------------------- */
 #home {
-	background: url(../img/fondos/cover7.jpg);
+	background: url(../img/fondos/coveer.jpeg);
 	background-color: #222;
 	/* background-attachment: fixed; */
 	
@@ -251,7 +251,7 @@ h6 {
 	height: 638px;
 	background-position: 50% -120px;
 }
-.home-overlay {
+/*.home-overlay {
 	background-color: rgba(44, 62, 80, 0.3);
 	background-image: url("../img/fondos/descarga.png");
 	background-repeat: repeat;
@@ -261,7 +261,7 @@ h6 {
 	top: 0;
 	width: 100%;
 	z-index: 0;
-}
+}*/
 .intro {
 	position: absolute;
 	width: 100%;
