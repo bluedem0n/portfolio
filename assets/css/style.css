@@ -946,6 +946,13 @@ h1 {
 .herramientas {
 	margin-bottom: 30px;
 }
+.herramientas i {
+	font-size: 50px !important;
+}
+.herramientas img{
+	margin-top: -30px;
+	max-width: 10%;
+}
 .iconHerramienta {
 	color: gray;
 	font-size: 35px;
