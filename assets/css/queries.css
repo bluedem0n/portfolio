@@ -28,7 +28,55 @@
 
 /* m870 */
 
-@media (max-width: 870px) {}
+@media (max-width: 870px) {
+	.start {
+		font-family: 'Lato', sans-serif;
+		font-size: 10vw;
+	}
+	.console-container {
+		font-size: 9vw;
+	}
+	.text-blue {
+		font-size: 1.3em;
+	}
+	.grid__item img {
+		display: none;
+	}
+	.img-responsive {
+		display: block;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	.aboutme {
+		text-align: justify;
+		font-size: 16px;
+		margin-left: -1em;
+		width: 115%;
+	}
+	.skill-text {
+		font-size: 7.5vw;
+	}
+	.manito {
+		display: none;
+	}
+	.mg-bottom {
+		margin-bottom: 2em;
+	}
+	.frase-parrafo {
+		font-size: 27px;
+		text-align: center;
+		width: 100%;
+	}
+	.frase {
+		background-position: 73% 50%;
+	}
+	.seccion-movil {
+		padding: 45px 0 100px;
+	}
+	.modal-content {
+		width: 119%;
+	}
+}
 
 
 /* m650 */

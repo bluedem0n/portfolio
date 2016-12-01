@@ -239,8 +239,6 @@ h6 {
 #home {
 	background: url(../img/fondos/coveer.jpeg);
 	background-color: #222;
-	/* background-attachment: fixed; */
-	
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
@@ -248,20 +246,8 @@ h6 {
 	-o-background-size: cover;
 	background-size: cover;
 	padding: 0;
-	height: 638px;
-	background-position: 50% -120px;
-}
-/*.home-overlay {
-	background-color: rgba(44, 62, 80, 0.3);
-	background-image: url("../img/fondos/descarga.png");
-	background-repeat: repeat;
 	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 0;
-}*/
+}
 .intro {
 	position: absolute;
 	width: 100%;
@@ -348,13 +334,26 @@ h6 {
 	transform: rotate(-5deg);
 }
 .grid__item img {
-	max-width: 100%;
+	max-width: 90%;
+}
+.img-responsive{
+	display: none;
+	max-width: 0;
 }
 .aboutme {
-	text-align: justify;
-	font-size: 16px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+    white-space: pre-line;
+    word-spacing: normal;
 }
-
+.red{
+	color: #ED4135;
+	font-weight: 600;
+}
+.meta{
+	text-align: center;
+}
 /* ---------------------------------------------- /*
  * Skills
 /* ---------------------------------------------- */
@@ -386,6 +385,9 @@ h6 {
 	content: "%";
 	font-size: 50%;
 	margin-left: 0.1em;
+}
+.skill-text{
+	font-size: 1.3vw;
 }
 #myCarousel .thumbnail {
 	margin-bottom: 0;
@@ -569,48 +571,6 @@ h6 {
 	height: 785px;
 	text-align: center;
 	background-image: url(../img/fondos/bg-footer.jpg)
-}
-#contact .footer-rocket-overlay {
-	overflow: hidden;
-	position: absolute;
-	z-index: 2;
-	top: 94px;
-	left: -119px;
-	width: 30%;
-	height: 820px;
-	padding-top: 100px;
-	background-size: cover;
-}
-#contact .pink-smoke {
-	position: absolute;
-	top: 213px;
-	left: -45px;
-	width: 100%;
-	height: 100%;
-	-webkit-transition: margin 0.4s cubic-bezier(0, 0, 0, 1);
-	transition: margin 0.4s cubic-bezier(0, 0, 0, 1);
-	background: url(../img/fondos/pink-smoke.svg) left bottom no-repeat;
-}
-#contact .white-smoke {
-	position: absolute;
-	top: 213px;
-	left: -45px;
-	width: 100%;
-	height: 100%;
-	-webkit-transition: margin 0.4s cubic-bezier(0, 0, 0, 1);
-	transition: margin 0.4s cubic-bezier(0, 0, 0, 1);
-	background: url(../img/fondos/white-smoke.svg) left bottom no-repeat;
-}
-#contact .rocket {
-	position: absolute;
-	z-index: 1;
-	top: 213px;
-	left: 0px;
-	width: 470px;
-	height: 815px;
-	-webkit-transition: margin 0.4s cubic-bezier(0, 0, 0, 1);
-	transition: margin 0.4s cubic-bezier(0, 0, 0, 1);
-	background: url(../img/fondos/rocket.svg) left bottom no-repeat;
 }
 .section {
 	text-align: center;
@@ -949,7 +909,7 @@ h1 {
 .herramientas i {
 	font-size: 50px !important;
 }
-.herramientas img{
+.herramientas img {
 	margin-top: -30px;
 	max-width: 10%;
 }
@@ -982,7 +942,7 @@ h1 {
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 30px;
-	font-size: 20px;
+	font-size: 2em;
 	color: #fff;
 	text-align: center;
 	width: 53%;
