@@ -20,7 +20,7 @@ if(isset($_POST['message'])){
 		$res['sendstatus'] = 'done';
 	
 		//Edit your message here
-		$res['message'] = 'Felicidades su mensaje ha sido enviado con exito';
+		$res['message'] = 'Form Submission Successful';
     }
 	else{
 		$res['message'] = 'Failed to send mail. Please mail me to you@example.com';
