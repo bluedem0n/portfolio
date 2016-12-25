@@ -233,7 +233,6 @@ h6 {
 	color: white;
 }
 
-
 /* ---------------------------------------------- /*
  * Home
 /* ---------------------------------------------- */
@@ -337,35 +336,35 @@ h6 {
 .grid__item img {
 	max-width: 90%;
 }
-.img-responsive{
+.img-responsive {
 	display: none;
 	max-width: 0;
 }
 .aboutme {
-    text-align: justify;
-    font-size: 16px;
-    line-height: 30px;
-    white-space: pre-line;
-    word-spacing: normal;
+	text-align: justify;
+	font-size: 16px;
+	line-height: 30px;
+	white-space: pre-line;
+	word-spacing: normal;
 }
-.red{
+.red {
 	color: #ED4135;
 	font-weight: 600;
 }
-.meta{
+.meta {
 	text-align: center;
 }
+
 /* ---------------------------------------------- /*
  * Skills
 /* ---------------------------------------------- */
-.iconos  span {
+.iconos span {
 	font-size: 7em;
 }
-.iconos{
+.iconos {
 	padding-top: 4em;
 	padding-bottom: 3em;
 }
-
 .mira {
 	font-size: 20px;
 	margin-bottom: 1em;
@@ -395,7 +394,7 @@ h6 {
 	font-size: 50%;
 	margin-left: 0.1em;
 }
-.skill-text{
+.skill-text {
 	font-size: 1.3vw;
 }
 #icons div {
@@ -403,7 +402,7 @@ h6 {
 	-webkit-animation-iteration-count: infinite;
 }
 .devicon-linux-plain.colored {
-	color:#1B2F4A;
+	color: #1B2F4A;
 }
 .subtitulo-about {
 	font-family: 'Lato', sans-serif;
@@ -415,107 +414,6 @@ h6 {
 }
 .sobremi {
 	margin-top: 4em;
-}
-
-/* ---------------------------------------------- /*
- * Experimentos
-/* ---------------------------------------------- */
-.ver {
-	width: 57%;
-	margin: 0 auto;
-}
-.expebox {
-	background: #fff;
-	border-bottom: 1px solid #d4d4d4;
-	text-align: center;
-	padding: 40px 20px;
-	margin: 0 0 20px;
-}
-.expebox-titulo {
-	margin: 0 0 15px;
-	padding: 0;
-}
-.flip {
-	-webkit-perspective: 800;
-	-ms-perspective: 800;
-	-moz-perspective: 800;
-	-o-perspective: 800;
-	position: relative;
-	margin: 0.5em;
-}
-.flip .card.flipped {
-	transform: rotatey(-180deg);
-	-ms-transform: rotatey(-180deg);
-	/* IE 9 */
-	
-	-moz-transform: rotatey(-180deg);
-	/* Firefox */
-	
-	-webkit-transform: rotatey(-180deg);
-	/* Safari and Chrome */
-	
-	-o-transform: rotatey(-180deg);
-	/* Opera */
-}
-.flip .card {
-	width: 100%;
-	height: 100%;
-	-webkit-transform-style: preserve-3d;
-	-webkit-transition: 0.5s;
-	-moz-transform-style: preserve-3d;
-	-moz-transition: 0.5s;
-	-ms-transform-style: preserve-3d;
-	-ms-transition: 0.5s;
-	-o-transform-style: preserve-3d;
-	-o-transition: 0.5s;
-	transform-style: preserve-3d;
-	transition: 0.5s;
-}
-.flip .card .cara {
-	z-index: 2;
-	font-family: Georgia;
-	font-size: 3em;
-	text-align: center;
-	line-height: 200px;
-	backface-visibility: hidden;
-	/* W3C */
-	
-	-webkit-backface-visibility: hidden;
-	/* Safari & Chrome */
-	
-	-moz-backface-visibility: hidden;
-	/* Firefox */
-	
-	-ms-backface-visibility: hidden;
-	/* Internet Explorer */
-	
-	-o-backface-visibility: hidden;
-	/* Opera */
-}
-.flip .card .adelante {
-	position: absolute;
-	z-index: 1;
-	background: black;
-	color: white;
-	cursor: pointer;
-}
-.flip .card .atras {
-	background: blue;
-	background: white;
-	color: black;
-	cursor: pointer;
-	transform: rotatey(-180deg);
-	-ms-transform: rotatey(-180deg);
-	/* IE 9 */
-	
-	-moz-transform: rotatey(-180deg);
-	/* Firefox */
-	
-	-webkit-transform: rotatey(-180deg);
-	/* Safari and Chrome */
-	
-	-o-transform: rotatey(-180deg);
-	/* Opera */
 }
 
 /* ---------------------------------------------- /*
@@ -851,37 +749,13 @@ h1 {
 /* ---------------------------------------------- /*
  * Portafolio
 /* ---------------------------------------------- */
-.seccion-portafolio {
-	margin-top: 2em;
+.portfolio {
+	position: relative;
+	height: 600px;
+	width: 100%;
 }
 .sec-portafolio {
-	width: 100%;
-	padding: 6% 0;
-}
-#contenedor-modal {
-	width: 80%;
-}
-#proyecto {
-	width: 100%;
-}
-.descripcion-parrafo {
-	margin-bottom: 10px;
-	font-size: 15px;
-	color: #a0a0a0;
-}
-.herramientas {
-	margin-bottom: 30px;
-}
-.herramientas i {
-	font-size: 50px !important;
-}
-.herramientas img {
-	margin-top: -30px;
-	max-width: 10%;
-}
-.iconHerramienta {
-	color: gray;
-	font-size: 35px;
+	margin-top: 5em;
 }
 
 /* ---------------------------------------------- /*
@@ -979,5 +853,248 @@ textarea.form-control {
 		font-size: 24px;
 		margin: 0 0 30px;
 		letter-spacing: 3px;
+	}
+}
+
+/*--------------------------------*/
+
+/***** Portfolio Common style *****/
+
+/*--------------------------------*/
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.grid h2 {
+	font-size: 20px;
+}
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: auto;
+	max-width: 100%;
+	opacity: 0.8;
+}
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.grid figure h2 span {
+	font-weight: 800;
+}
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/*---------------*/
+
+/***** Bubba *****/
+
+/*---------------*/
+.pfblock {
+	padding: 120px 0 100px;
+}
+.effect-bubba h2 {
+	display: none;
+}
+.effect-bubba:hover h2 {
+	display: block;
+}
+figure.effect-bubba {
+	background: #ED4135;
+}
+figure.effect-bubba img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+figure.effect-bubba:hover img {
+	opacity: 0.4;
+}
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-bubba figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0, 1);
+	transform: scale(0, 1);
+}
+figure.effect-bubba figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1, 0);
+	transform: scale(1, 0);
+}
+figure.effect-bubba h2 {
+	padding-top: 10%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0, -20px, 0);
+	transform: translate3d(0, -20px, 0);
+	color: #fff;
+}
+figure.effect-bubba p {
+	padding: 20px 2.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0, 20px, 0);
+	transform: translate3d(0, 20px, 0);
+}
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/*-----------------------*/
+
+/***** Quote Rotator *****/
+
+/*-----------------------*/
+.cbp-qtrotator {
+	position: relative;
+	margin: 3em auto 0em auto;
+	max-width: 90%;
+	width: 90%;
+}
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: 200px;
+	border-top: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	padding: 2em 0;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	width: 100%;
+}
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	border-bottom: none;
+}
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative;
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+}
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+	content: " ";
+	display: table;
+}
+.cbp-qtrotator .cbp-qtcontent:after {
+	clear: both;
+}
+.cbp-qtprogress {
+	position: absolute;
+	background: #FF5252;
+	height: 1px;
+	width: 0%;
+	top: 0;
+	z-index: 1000;
+}
+.cbp-qtrotator blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12px;
+}
+.cbp-qtrotator blockquote p {
+	font-size: 2em;
+	color: #888;
+	font-weight: 300;
+	margin: 0.4em 0 1em;
+}
+.cbp-qtrotator blockquote footer {
+	font-size: 1.2em;
+}
+.cbp-qtrotator blockquote footer:before {
+	content: '― ';
+}
+.cbp-qtrotator .cbp-qtcontent img {
+	float: right;
+	margin-left: 3em;
+}
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) {
+	.cbp-qtrotator {
+		font-size: 70%;
+	}
+	
+	.cbp-qtrotator img {
+		width: 80px;
 	}
 }
