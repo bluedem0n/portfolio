@@ -151,6 +151,10 @@ h6 {
 	border: 0;
 }
 
+.console-underscore {
+	color: white;
+}
+
 .btn:hover,
 .btn:focus,
 .btn:active,
@@ -237,7 +241,7 @@ h6 {
  * Home
 /* ---------------------------------------------- */
 #home {
-	background: url(../img/fondos/coveer.jpeg);
+	background: url(../img/fondos/fondo1.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -344,15 +348,26 @@ h6 {
 	text-align: justify;
 	font-size: 16px;
 	line-height: 30px;
-	white-space: pre-line;
 	word-spacing: normal;
 }
 .red {
 	color: #ED4135;
 	font-weight: 600;
 }
-.meta {
+.codespace{
+	color: #F43E80;
+	font-weight: 600;
+}
+.actual{
 	text-align: center;
+}
+.under{
+text-decoration: underline;	
+}
+.meta {
+	color: #0769AD;
+	text-align: center;
+	font-weight: 600;
 }
 
 /* ---------------------------------------------- /*
@@ -762,10 +777,10 @@ h1 {
  * Frase Sthefany
 /* ---------------------------------------------- */
 .frase {
-	background: url(../img/fondos/banner.png);
+	background: url(../img/fondos/fondo2.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-position: 0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -777,15 +792,16 @@ h1 {
 	font-size: 20px;
 	letter-spacing: 1px;
 	margin-bottom: 5px;
+	color: #1B2F4A;
 }
 .frase-parrafo {
 	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 30px;
 	font-size: 2em;
-	color: #fff;
+	color: #1B2F4A;
 	text-align: center;
-	width: 53%;
+	width: 58%;
+	margin-right: -1em;
+	padding-top: 2em;
 }
 
 /* ---------------------------------------------- /*
@@ -941,9 +957,6 @@ textarea.form-control {
 }
 .effect-bubba:hover h2 {
 	display: block;
-}
-figure.effect-bubba {
-	background: #ED4135;
 }
 figure.effect-bubba img {
 	opacity: 0.7;
