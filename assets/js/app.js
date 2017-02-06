@@ -39,7 +39,7 @@
 	 * Texto Maquina de escribir
 	/* ---------------------------------------------- */
 
-	consoleText(["Front End Developer"], 'text', ["#ED4135"]);
+	consoleText(["Front End Developer"], 'text', ["#FFF"]);
 
 	function consoleText(words, id, colors) {
 		if (colors === undefined) colors = ['#fff'];
